@@ -92,4 +92,6 @@ Tests run on:
 
 npx playwright test tests/customer-service-test.spec.ts
 npx playwright test tests/customer-service-test.spec.ts --headed
+
+## to open the recorder
 npx playwright codegen tests/customer-service-test.spec.ts
