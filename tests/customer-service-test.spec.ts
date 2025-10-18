@@ -42,7 +42,11 @@ test.describe('Customer Service Application', () => {
     await expect(page.getByRole('heading', { name: testData.fullName, exact: true })).toBeVisible();
     await page.getByText('Active').nth(3).click();
     await page.getByText(testData.email).click();
+
+
     await page.waitForTimeout(5000);
+
+    
   });
 
 });
